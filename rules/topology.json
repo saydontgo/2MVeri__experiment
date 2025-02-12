@@ -1,0 +1,58 @@
+{
+    "directed": false,
+    "multigraph": false,
+    "graph": {},
+    "nodes": [
+        {
+            "id": "h1",
+            "prime": 1
+        },
+        {
+            "id": "h2",
+            "prime": 1
+        },
+        {
+            "id": "s1",
+            "prime": 2
+        },
+        {
+            "id": "s2",
+            "prime": 3
+        },
+        {
+            "id": "s3",
+            "prime": 5
+        },
+        {
+            "id": "s4",
+            "prime": 7
+        }
+        
+    ],
+    "links": [
+        {
+            "source": "h1",
+            "target": "s1"
+        },
+        {
+            "source": "h2",
+            "target": "s4"
+        },
+        {
+            "source": "s1",
+            "target": "s2"
+        },
+        {
+            "source": "s1",
+            "target": "s3"
+        },
+        {
+            "source": "s2",
+            "target": "s4"
+        },
+        {
+            "source": "s3",
+            "target": "s4"
+        }
+    ]
+}

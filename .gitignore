@@ -1,0 +1,5 @@
+./code
+./log
+*.log
+*.pyc
+*.p4i

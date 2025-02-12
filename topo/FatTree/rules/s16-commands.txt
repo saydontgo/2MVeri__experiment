@@ -1,0 +1,67 @@
+
+// ipv4_forward
+
+// entry rules
+// s15 --> s7: 1:4
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.13/32 2 => 00:00:0a:00:07:0d 1
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.13/32 3 => 00:00:0a:00:07:0d 1
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.13/32 4 => 00:00:0a:00:07:0d 1
+
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.14/32 2 => 00:00:0a:00:07:0e 1
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.14/32 3 => 00:00:0a:00:07:0e 1
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.14/32 4 => 00:00:0a:00:07:0e 1
+
+// entry rules
+// s15 --> s8: 2:4
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.15/32 1 => 00:00:0a:00:08:0f 2
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.15/32 3 => 00:00:0a:00:08:0f 2
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.15/32 4 => 00:00:0a:00:08:0f 2
+
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.16/32 1 => 00:00:0a:00:08:10 2
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.16/32 3 => 00:00:0a:00:08:10 2
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.16/32 4 => 00:00:0a:00:08:10 2
+
+// output rules
+// s7 --> s15: 4:1
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.1.1/32 1 => 00:00:0a:00:01:01 3
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.1.2/32 1 => 00:00:0a:00:01:02 4
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.2.3/32 1 => 00:00:0a:00:02:03 3
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.2.4/32 1 => 00:00:0a:00:02:04 4
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.3.5/32 1 => 00:00:0a:00:03:05 3
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.3.6/32 1 => 00:00:0a:00:03:06 4
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.4.7/32 1 => 00:00:0a:00:04:07 3
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.4.8/32 1 => 00:00:0a:00:04:08 4 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.5.9/32 1 => 00:00:0a:00:05:09 3 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.5.10/32 1 => 00:00:0a:00:05:0a 4 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.6.11/32 1 => 00:00:0a:00:06:0b 3 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.6.12/32 1 => 00:00:0a:00:06:0c 4 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.13/32 1 => 00:00:0a:00:07:0d 1 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.14/32 1 => 00:00:0a:00:07:0e 1  
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.15/32 1 => 00:00:0a:00:08:0e 2 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.16/32 1 => 00:00:0a:00:08:10 2 
+
+// output rules
+// s8 --> s15: 4:2
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.1.1/32 2 => 00:00:0a:00:01:01 3
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.1.2/32 2 => 00:00:0a:00:01:02 4
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.2.3/32 2 => 00:00:0a:00:02:03 3
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.2.4/32 2 => 00:00:0a:00:02:04 4
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.3.5/32 2 => 00:00:0a:00:03:05 3
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.3.6/32 2 => 00:00:0a:00:03:06 4
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.4.7/32 2 => 00:00:0a:00:04:07 3
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.4.8/32 2 => 00:00:0a:00:04:08 4 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.5.9/32 2 => 00:00:0a:00:05:09 3 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.5.10/32 2 => 00:00:0a:00:05:0a 4 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.6.11/32 2 => 00:00:0a:00:06:0b 3 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.6.12/32 2 => 00:00:0a:00:06:0c 4 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.13/32 2 => 00:00:0a:00:07:0d 1 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.7.14/32 2 => 00:00:0a:00:07:0e 1  
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.15/32 2 => 00:00:0a:00:08:0e 2 
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.16/32 2 => 00:00:0a:00:08:10 2 
+
+// Phase 1: consistency verification
+table_set_default MyEgress.tbl_bf add_bf 16
+table_set_default MyEgress.tbl_prime prime_multiply 53
+
+// Phase 2: inconsistency location
+table_set_default MyEgress.swtrace add_swtrace 16

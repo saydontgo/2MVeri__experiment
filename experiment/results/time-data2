@@ -1,0 +1,312 @@
+1. 1
+0.1 1702901491.364449706 1702901491.394787  
+0.2 1702901645.279465674 1702901645.4583097 
+0.3 1702901697.833658782 1702901698.1193538
+0.4 1702904342.254094762 1702904342.584906
+0.5 1702902219.284447653 1702902219.5505903
+0.6 1702902341.301792857 1702902341.610501
+0.7 1702902438.172225009 1702902438.6078446  
+0.8 1702902501.524062579 1702902502.1303658 
+0.9 1702902603.846648933 1702902604.7176607 
+1.0 1702902726.665613003 1702902727.548431 
+
+0.1 1702902858.491229710 1702902858.5086815
+0.2 1702902990.401604167 1702902990.4716847
+0.3 1702903032.887948585 1702903033.026075
+0.4 1702903117.602036641 1702903117.8818853 
+0.5 1702903178.003296491 1702903178.4041118
+0.6 1702903251.469605338 1702903251.9187443
+0.7 1702903426.355601757 1702903426.8134704
+0.8 1702903492.471875988 1702903493.1366978 
+0.9 1702903569.221864743 1702903570.1257765 
+1.0 1702903778.383267603 1702903779.36173
+
+2. 5 
+0.1 1702907181.585856954 1702907182.0924492
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907181.7403889
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907181.842433
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907181.9602337
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907181.9958303
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907182.0924492
+0.2 1702907258.247537418 1702907258.8721316
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907258.4247837
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907258.6547532
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907258.7282195
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702907258.828939
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907258.8721316
+0.3 1702907339.291346903 1702907340.0288923
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907339.4165747
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907339.7669098
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907339.777691
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702907339.9930098
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907340.0288923
+0.4 1702907442.223537268 1702907443.015303
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907442.5992382
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907442.6788757
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702907442.8097827
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702907442.8551867
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907443.015303
+0.5 1702907505.292224886 1702907506.3308895
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907505.7910073
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907505.9020038
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702907505.9388165
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702907506.043783
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907506.3308895
+0.6 1702907650.286880800 1702907651.3465095
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907650.5895631
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907650.6509569
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702907651.191442
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907651.2875495
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907651.3465095
+0.7 1702907784.401879791 1702907785.5399313
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907784.7960095
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907785.1238573
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702907785.1264713
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), path: [6, 13, 18, 15, 8], expected_path: [6, 14, 20, 16, 8], time: 1702907785.460023
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702907785.5399313
+0.8 1702907550.287272074 1702907551.5276082
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907550.9271958
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702907551.1193013
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907551.162768
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702907551.3537552
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907551.5276082
+0.9 1702907954.839398800 1702907956.09744
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907955.2229242
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907955.3065164
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702907955.5676708
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), path: [6, 13, 18, 15, 8], expected_path: [6, 14, 20, 16, 8], time: 1702907955.7749035
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702907956.09744
+1.0 1702907838.773200366 1702907840.0671241
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907839.072072
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702907839.457495
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702907839.6807241
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702907840.0167286
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702907840.0671241
+
+
+0.1 1702908165.633856281 1702908166.1377275
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908165.808786
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908165.9136407
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908166.0265422
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908166.0447307
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908166.1377275
+0.2 1702908119.127851223 1702908119.6843915
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908119.3657868
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908119.4678912
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908119.601849
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908119.6037965
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908119.6843915
+0.3 1702908210.999740637 1702908211.77104
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908211.2555826
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908211.3444428
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908211.582395
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908211.6575112
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908211.77104
+0.4 1702908259.784866783 1702908260.6623008
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908260.2295785
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908260.2599115
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908260.359874
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702908260.439681
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908260.6623008
+0.5 1702908407.399238705 1702908408.2870185
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908407.656545
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908407.9192822
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908408.2085276
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702908408.2845845
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908408.2870185
+0.6 1702908507.335591349 1702908508.2702787
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908507.9428658
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), prime_prod: 29034109, expected_prod: 39966823,  time: 1702908508.061101
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908508.0983515
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908508.225245
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702908508.2702787
+0.7 1702908305.619565583 1702908306.5875638
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908305.9798403
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908306.1909084
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908306.312741
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908306.4939425
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702908306.5875638
+0.8 1702908710.511458208 1702908711.7277582
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908711.12268
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908711.1754038
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), prime_prod: 29034109, expected_prod: 39966823,  time: 1702908711.4202082
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702908711.5411587
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908711.7277582
+0.9 1702908559.776545323 1702908561.057881
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908560.2354217
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908560.386009
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908560.696612
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), prime_prod: 29034109, expected_prod: 39966823,  time: 1702908560.9743237
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908561.057881
+1.0 1702908769.858975700 1702908771.272179
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702908770.5590258
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), prime_prod: 29034109, expected_prod: 39966823,  time: 1702908770.5784323
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702908770.8251913
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702908770.8928394
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702908771.272179
+
+1. 7
+0.1 1702910351.996631804 1702910352.5439794
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910352.185243
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910352.3076832
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910352.312642
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910352.4182153
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910352.4245799
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910352.5284653
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910352.5439794
+0.2 1702910458.338333570 1702910459.1383026
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910458.5219598
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910458.7037554
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910458.7303808
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910458.9322023
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702910458.9682717
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910458.9715831
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910459.1383026
+0.3 1702910514.759401578 1702910515.7236152
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910515.1933434
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910515.2424085
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702910515.3989484
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910515.5327358
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910515.5759013
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702910515.5821788
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), path: [4, 11, 18, 15, 8], expected_path: [4, 12, 20, 16, 8], time: 1702910515.7236152
+0.4 1702910566.850529930 1702910567.9219944
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910567.0808358
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910567.274793
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910567.4995115
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702910567.7087529
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910567.7360296
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), path: [4, 11, 18, 15, 8], expected_path: [4, 12, 20, 16, 8], time: 1702910567.7544978
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910567.9219944
+0.5 1702910634.733338257 1702910635.7584605
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910634.9502997
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910635.1537807
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702910635.1857314
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910635.4797804
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), path: [4, 11, 18, 15, 8], expected_path: [4, 12, 20, 16, 8], time: 1702910635.5281456
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910635.6966822
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702910635.7584605
+0.6 1702910771.958065460 1702910773.30009
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910772.1605914
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), path: [4, 11, 18, 15, 8], expected_path: [4, 12, 20, 16, 8], time: 1702910772.7363074
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910772.7546375
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702910772.8364875
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702910772.8687978
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910772.8708484
+Inconsistent = source-destination pair: (10.0.7.13, 10.0.8.16), path: [7, 15, 8], expected_path: [7, 16, 8], time: 1702910773.30009
+0.7 1702910923.486113776 1702910924.8817155
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910923.9449964
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910924.3309963
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), path: [4, 11, 18, 15, 8], expected_path: [4, 12, 20, 16, 8], time: 1702910924.3547947
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702910924.672361
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702910924.8269553
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910924.8645885
+Inconsistent = source-destination pair: (10.0.7.13, 10.0.8.16), path: [7, 15, 8], expected_path: [7, 16, 8], time: 1702910924.8817155
+0.8 1702910860.422886095 1702910861.939122
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910860.8090312
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702910861.138666
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910861.2796626
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), path: [4, 11, 18, 15, 8], expected_path: [4, 12, 20, 16, 8], time: 1702910861.292942
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), path: [6, 13, 18, 15, 8], expected_path: [6, 14, 20, 16, 8], time: 1702910861.5562718
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910861.6539228
+Inconsistent = source-destination pair: (10.0.7.13, 10.0.8.16), path: [7, 15, 8], expected_path: [7, 16, 8], time: 1702910861.939122
+0.9 1702911045.988226849 1702911047.5889618
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702911046.694863
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), path: [4, 11, 18, 15, 8], expected_path: [4, 12, 20, 16, 8], time: 1702911046.9237323
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702911046.9595842
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), path: [5, 13, 18, 15, 8], expected_path: [5, 14, 20, 16, 8], time: 1702911047.2525923
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702911047.2913337
+Inconsistent = source-destination pair: (10.0.7.13, 10.0.8.16), path: [7, 15, 8], expected_path: [7, 16, 8], time: 1702911047.520861
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), path: [6, 13, 18, 15, 8], expected_path: [6, 14, 20, 16, 8], time: 1702911047.5889618
+1.0 1702910719.413841271 1702910721.3279672
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910720.0041952
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910720.5422695
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910720.6464214
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), path: [4, 11, 18, 15, 8], expected_path: [4, 12, 20, 16, 8], time: 1702910721.014578
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), path: [3, 11, 18, 15, 8], expected_path: [3, 12, 20, 16, 8], time: 1702910721.0273907
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), path: [2, 9, 18, 15, 8], expected_path: [2, 10, 20, 16, 8], time: 1702910721.2894723
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), path: [1, 9, 18, 15, 8], expected_path: [1, 10, 20, 16, 8], time: 1702910721.3279672
+
+0.1 1702911131.833981979 1702911132.490781
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911132.0089152
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911132.1373453
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911132.2425942
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911132.2452583
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911132.3589876
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911132.3703468
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911132.490781
+0.2 1702911200.048009058 1702911200.9332938
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911200.3434007
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911200.496456
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911200.5024965
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911200.7067242
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911200.7285254
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702911200.8363407
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911200.9332938
+0.3 1702911248.870584854 1702911249.7594557
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 258, expected_prod: 4146826,  time: 1702911249.0590742
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 337, expected_prod: 6220239,  time: 1702911249.3051665
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 258, expected_prod: 4146826,  time: 1702911249.401876
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 815, expected_prod: 13226945,  time: 1702911249.578705
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 337, expected_prod: 6220239,  time: 1702911249.6513422
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), prime_prod: 1641, expected_prod: 18517723,  time: 1702911249.6989899
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 258, expected_prod: 4146826,  time: 1702911249.7594557
+0.4 1702911327.831095846 1702911328.7367349
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911328.243503
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911328.3040688
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), prime_prod: 11820641, expected_prod: 18517723,  time: 1702911328.4458983
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702911328.6256814
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702911328.6438825
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911328.6882489
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911328.7367349
+0.5 1702911389.749185906 1702911390.9305034
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911390.3381038
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911390.4123738
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702911390.4523616
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), prime_prod: 11820641, expected_prod: 18517723,  time: 1702911390.5142426
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702911390.7344131
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911390.8658576
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911390.9305034
+0.6 1702911446.995661213 1702911448.1632423
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911447.351399
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911447.5567942
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702911447.9264276
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911447.9795127
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702911448.0504003
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), prime_prod: 11820641, expected_prod: 18517723,  time: 1702911448.0701327
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911448.1632423
+
+0.7 1702911504.007688360 1702911505.3501995
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911504.248465
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), prime_prod: 11820641, expected_prod: 18517723,  time: 1702911504.6506677
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702911504.8988423
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911504.9209678
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911504.9904714
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), prime_prod: 29034109, expected_prod: 39966823,  time: 1702911505.2170477
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), prime_prod: 11820641, expected_prod: 18517723,  time: 1702911505.3501995
+0.8 1702911567.768668016 1702911569.2662847
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911568.4479444
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911568.7347474
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702911568.826279
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), prime_prod: 11820641, expected_prod: 18517723,  time: 1702911568.8911896
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702911568.9156213
+Inconsistent = source-destination pair: (10.0.7.13, 10.0.8.16), prime_prod: 15181, expected_prod: 17119,  time: 1702911569.149375
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911569.2662847
+0.9 1702911628.480764038 1702911630.0430367
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911629.208913
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), prime_prod: 11820641, expected_prod: 18517723,  time: 1702911629.4391255
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911629.5088255
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702911629.5996835
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), prime_prod: 29034109, expected_prod: 39966823,  time: 1702911629.677261
+Inconsistent = source-destination pair: (10.0.5.9, 10.0.8.16), prime_prod: 24567323, expected_prod: 33818081,  time: 1702911629.9268928
+Inconsistent = source-destination pair: (10.0.7.13, 10.0.8.16), prime_prod: 15181, expected_prod: 17119,  time: 1702911630.0430367
+1.0 1702911690.642791084 1702911692.6445968
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911691.1914973
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702911691.5379713
+Inconsistent = source-destination pair: (10.0.1.1, 10.0.8.16), prime_prod: 2505758, expected_prod: 4146826,  time: 1702911691.7417312
+Inconsistent = source-destination pair: (10.0.2.4, 10.0.8.16), prime_prod: 3758637, expected_prod: 6220239,  time: 1702911692.221573
+Inconsistent = source-destination pair: (10.0.6.12, 10.0.8.16), prime_prod: 29034109, expected_prod: 39966823,  time: 1702911692.256447
+Inconsistent = source-destination pair: (10.0.3.5, 10.0.8.16), prime_prod: 8443315, expected_prod: 13226945,  time: 1702911692.5770645
+Inconsistent = source-destination pair: (10.0.4.8, 10.0.8.16), prime_prod: 11820641, expected_prod: 18517723,  time: 1702911692.6445968
+
+

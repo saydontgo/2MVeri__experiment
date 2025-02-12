@@ -1,0 +1,14 @@
+
+// ipv4_forward
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.4.2/32 2 => 00:00:0a:00:04:02 1
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.4.2/32 3 => 00:00:0a:00:04:02 1
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.4.3/32 2 => 00:00:0a:00:04:02 1
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.4.3/32 3 => 00:00:0a:00:04:02 1
+table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.1.1/32 1 => 00:00:0a:00:01:01 3
+
+// Phase 1: consistency verification
+// table_set_default MyEgress.tbl_bf add_bf 4
+table_set_default MyEgress.tbl_prime prime_multiply 7
+
+// Phase 2: inconsistency location
+table_set_default MyEgress.swtrace add_swtrace 4
