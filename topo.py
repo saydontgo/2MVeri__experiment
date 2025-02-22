@@ -37,10 +37,10 @@ class Topology:
         return self.graph
 
     def get_nodes(self):
-        return self.nodes
+        return self.nodes;
     
     def get_primes(self):
-        return self.primes
+        return self.primes;
     
     def get_prime(self, node):
         return self.primes[node]
