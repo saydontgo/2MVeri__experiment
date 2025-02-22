@@ -23,7 +23,7 @@ def get_if():
     for i in get_if_list():
         if "eth0" in i:
             iface=i
-            break;
+            break
     if not iface:
         print("Cannot find interface eth1")
         exit(1)
