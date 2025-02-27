@@ -120,33 +120,32 @@ def verification(pkt: Packet):
             if bug_num == 7:
                 sys.exit()
         
-        # 故障定位
-        # tmp_prod = prime_prod
-        # pre_switch = None
-        # end_switch = 'h16'
-        # path = [end_switch]
-        # while tmp_prod > 1:
-        #     flag = False
-        #     for node in topo.get_neighbors(end_switch):
-        #         if pre_switch == None or node != pre_switch:
-        #             prime = topo.get_prime(node)
-        #             if prime == 1:
-        #                 continue
-        #             if tmp_prod % prime == 0:
-        #                 pre_switch = end_switch
-        #                 end_switch = node
-        #                 tmp_prod = tmp_prod / prime
-        #                 flag = True
-        #                 break
+        tmp_prod = prime_prod
+        pre_switch = None
+        end_switch = 'h16'
+        path = [end_switch]
+        while tmp_prod > 1:
+            flag = False
+            for node in topo.get_neighbors(end_switch):
+                if pre_switch == None or node != pre_switch:
+                    prime = topo.get_prime(node)
+                    if prime == 1:
+                        continue
+                    if tmp_prod % prime == 0:
+                        pre_switch = end_switch
+                        end_switch = node
+                        tmp_prod = tmp_prod / prime
+                        flag = True
+                        break
                     
-        #     if flag :
-        #         path.append(end_switch)
-        #         # print("tmp_prod: %s, forward path: %s"% (tmp_prod, path))
-        #     else:
-        #         print("prime product: %s not recover actual forward path" % (prime_prod))
-        #         sys.exit()
+            if flag :
+                path.append(end_switch)
+                # print("tmp_prod: %s, forward path: %s"% (tmp_prod, path))
+            else:
+                print("prime product: %s not recover actual forward path" % (prime_prod))
+                sys.exit()
                 
-        # print("prime_prod: %s, forward path: %s"% (prime_prod, path))  
+        print("prime_prod: %s, forward path: %s"% (prime_prod, path))  
         
     elif IPOption_MRI in pkt:
         count = pkt['MRI'].count - 1

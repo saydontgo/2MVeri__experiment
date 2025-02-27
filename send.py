@@ -42,7 +42,7 @@ class IPOption_TAG(IPOption):
     option = 1
     fields_desc = [ _IPOption_HDR,
                     BitField("length", 0, 8),
-                    BitField("bloom_filter", 0, 16),
+                    #BitField("bloom_filter", 0, 16),
                     BitField("prime_product", 0, 32)]
 
 class IPOption_MRI(IPOption):
