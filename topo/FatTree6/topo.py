@@ -2,7 +2,7 @@
 
 import networkx as nx
 import json
-import sys
+import re
 
 from pip import main
 
@@ -11,7 +11,10 @@ prime_table=[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61,
 class Topology:
     def __init__(self, topo_json):
         self.graph = nx.Graph()
-        
+
+        # 用于建立主机和id映射表
+        self.ip=dict()
+
         self.nodes = []
         self.primes = {}
         # parse topology 
@@ -23,6 +26,7 @@ class Topology:
                 
                 if 'isHost' in node and node['isHost']:
                     self.primes[node['id']] = 1
+                    self.ip[re.findall('(.*)/', node['ip'])[0]] = node['id']  # 建立映射表
                 else:
                     self.primes[node['id']] = prime_table[i]
                     i = i + 1
@@ -47,6 +51,12 @@ class Topology:
     
     def get_neighbors(self, node):
         return self.graph.neighbors(node)
+    
+    def get_id(self, ip):
+        '''
+        根据ip返回节点对应的id
+        '''
+        return self.ip[ip]
 
     def get_paths(self, s, t, len, number):
         paths = []

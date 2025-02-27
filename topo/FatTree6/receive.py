@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
 import sys
-
 import time
 import logging
 import json
 logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
 
-from datetime import datetime
 
 from scapy.all import sniff,  get_if_list
 from scapy.all import Packet, IPOption
@@ -105,9 +103,7 @@ def verification(pkt: Packet):
     print('source-destination pair: (%s, %s), expected_path: %s' % (src_ip, dst_ip, expected_path))
     print(pkt)
     if IPOption_TAG in pkt:
-        print('mark1')
         prime_prod = pkt['TAG'].prime_product
-        print('mark2')
         # 验证质数乘积是否正确
         # TODO
         expected_prod = 1
@@ -123,34 +119,43 @@ def verification(pkt: Packet):
             if bug_num == 7:
                 sys.exit()
         
-        # 故障定位
-        tmp_prod = prime_prod
-        pre_switch = None
-        end_switch = 'h16'
-        path = [end_switch]
-        while tmp_prod > 1:
+            # 故障定位
+            tmp_prod = prime_prod
+            pre_switch = None
+            end_switch = None
             flag = False
-            for node in topo.get_neighbors(end_switch):
-                if pre_switch == None or node != pre_switch:
-                    prime = topo.get_prime(node)
-                    if prime == 1:
-                        continue
-                    if tmp_prod % prime == 0:
-                        pre_switch = end_switch
-                        end_switch = node
-                        tmp_prod = tmp_prod / prime
-                        flag = True
-                        break
-                    
+            path=[]
+            # 确定尾部交换机
+            for node in topo.get_neighbors(topo.get_id(dst_ip)):
+                tmp_prime = topo.get_prime(node)
+                if tmp_prod % tmp_prime == 0:
+                    end_switch = node
+                    tmp_prod /= tmp_prime
+                    flag = True
+                    break
+
+            if end_switch != None:
+                while tmp_prod > 1:
+                    flag = False
+                    path.append(end_switch)
+                    for node in topo.get_neighbors(end_switch):
+                        if pre_switch == None or node != pre_switch:
+                            prime = topo.get_prime(node)
+                            if prime == 1:
+                                continue
+                            if tmp_prod % prime == 0:
+                                pre_switch = end_switch
+                                end_switch = node
+                                tmp_prod /= prime
+                                flag = True
+                                break
+                        
             if flag :
-                path.append(end_switch)
-                # print("tmp_prod: %s, forward path: %s"% (tmp_prod, path))
+                print("recover success! prime_prod: %s, forward path: %s"% (prime_prod, path[::-1]))
             else:
-                print("prime product: %s not recover actual forward path" % (prime_prod))
+                print("Error: can't recover th actual forward path. prime product: %s" % (prime_prod))
                 sys.exit()
-                
-        print("prime_prod: %s, forward path: %s"% (prime_prod, path))  
-        
+            
     elif IPOption_MRI in pkt:
         count = pkt['MRI'].count - 1
         path = []
