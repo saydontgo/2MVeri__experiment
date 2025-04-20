@@ -54,7 +54,7 @@ table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.15/32 2 => 00:00:0a:0
 table_add MyIngress.ipv4_lpm MyIngress.ipv4_forward 10.0.8.16/32 2 => 00:00:0a:00:08:10 4 
 
 // Phase 1: consistency verification
-table_set_default MyEgress.tbl_bf add_bf 2
+//table_set_default MyEgress.tbl_bf add_bf 2
 table_set_default MyEgress.tbl_prime prime_multiply 3
 
 // Phase 2: inconsistency location

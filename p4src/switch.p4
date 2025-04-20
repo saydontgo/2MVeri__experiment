@@ -358,7 +358,7 @@ control MyEgress(inout headers hdr,
 
     // table tbl_bf {
     //     actions = { 
-    //         // add_bf;
+    //         add_bf;
     //         NoAction; 
     //     }
     //     default_action = NoAction();   

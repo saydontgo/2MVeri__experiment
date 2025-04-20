@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 这两行代码使得 pyplot 画出的图形中可以显示中文
-plt.rcParams['font.sans-serif'] = ['SimHei']
-plt.rcParams['axes.unicode_minus'] = False
+# plt.rcParams['font.sans-serif'] = ['SimHei']
+# plt.rcParams['axes.unicode_minus'] = False
 
 fig1, (ax1, ax2, ax3) = plt.subplots(figsize=(15, 6), nrows=1, ncols=3, sharex=True)
 x = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]

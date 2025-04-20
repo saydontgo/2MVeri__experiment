@@ -22,7 +22,7 @@ def get_if():
     for i in get_if_list():
         if "eth0" in i:
             iface=i
-            break;
+            break
     if not iface:
         print("Cannot find interface eth1")
         exit(1)
@@ -42,7 +42,7 @@ class IPOption_TAG(IPOption):
     option = 1
     fields_desc = [ _IPOption_HDR,
                     BitField("length", 0, 8),
-                    BitField("bloom_filter", 0, 16),
+                    # BitField("bloom_filter", 0, 16),
                     BitField("prime_product", 0, 32)]
 
 class IPOption_MRI(IPOption):

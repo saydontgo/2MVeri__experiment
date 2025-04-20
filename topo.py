@@ -70,9 +70,9 @@ class Topology:
 
 if __name__ == '__main__':
     topo = Topology('./topology.json')
-    print(topo.primes)
-    # print(topo.get_paths_no_cutoff('h1', 's4', 1))
-    print([n for n in topo.get_neighbors('h15')])
+    # print(topo.primes)
+    print(topo.get_paths_no_cutoff('h1', 'h3', 1))
+    # print([n for n in topo.get_neighbors('h15')])
     
     # prime_prod = 2423602
     # tmp_prod = prime_prod
